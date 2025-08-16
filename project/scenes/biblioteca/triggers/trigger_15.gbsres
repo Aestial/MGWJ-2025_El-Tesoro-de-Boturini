@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "816b7b21-b8b7-444b-8a67-67b2c36be527",
+  "name": "",
+  "prefabId": "",
+  "x": 10,
+  "y": 13,
+  "symbol": "trigger_51",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Hay documentos\nque por\nfragilidad",
+                "solo pueden verse\nen formato\ndigital."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "096b5e8e-9f4d-47d9-9f9d-ceb11d0c090c"
+          }
+        ]
+      },
+      "id": "0785e0b4-0de0-4ca4-91ca-8f9147130ad3"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 18
+}

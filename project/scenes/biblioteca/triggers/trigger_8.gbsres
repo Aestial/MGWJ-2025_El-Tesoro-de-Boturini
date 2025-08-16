@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "8c105c57-37dd-4478-b66d-3e77838b65dc",
+  "name": "",
+  "prefabId": "",
+  "x": 6,
+  "y": 19,
+  "symbol": "trigger_44",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "El papel hecho a\nmano puede durar",
+                "siglos si se\nconserva\ncorrectamente."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "bb7799a9-cbb0-4e32-8b64-b37c1cd66a0d"
+          }
+        ]
+      },
+      "id": "7f716062-1237-4ab4-8705-38b7fd386f4a"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 11
+}
